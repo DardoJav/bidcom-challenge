@@ -35,8 +35,8 @@ src/
 * **Swagger disponible en**: http://localhost:3000/api
 
 ### Endpoints
-* **Crear enlace**: (POST /create)
-  /n Request:
+#### **Crear enlace**: (POST /create)
+* Request:
     ```
     {
       "url": "https://google.com",
@@ -44,7 +44,7 @@ src/
       "expiresAt": "2025-12-31T23:59:59Z"   // opcional
     }
     ```
-  Response:
+* Response:
     ```
     {
       "target": "https://google.com",
@@ -53,11 +53,11 @@ src/
     }
     ```
 
-* **Redirigir a un enlace**: (GET /l/:id?password=1234)
-  Redirige al enlace original si es válido y la contraseña (si existe) es correcta.
+#### **Redirigir a un enlace**: (GET /l/:id?password=1234)
+* Redirige al enlace original si es válido y la contraseña (si existe) es correcta.
 
-* **Invalidar un enlace manualmente**: (PUT /invalidate/****:id)
-  Response:
+#### **Invalidar un enlace manualmente**: (PUT /invalidate/****:id)
+Response:
     ```
     {
       "message": "Link invalidado correctamente",
