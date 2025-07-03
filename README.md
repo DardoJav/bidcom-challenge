@@ -18,7 +18,7 @@ El sistema expone endpoints REST para:
 - **Swagger**: Documentación de la API
 
 ### Estructura
-
+```
 src/
 ├── links/                    # Módulo principal de la app
 │   ├── dto/                  # DTOs de validación de datos
@@ -29,7 +29,7 @@ src/
 │   ├── links.service.ts
 ├── utils/                    # generador de ids para los links en utils
 ├── main.ts                   # Punto de entrada de la aplicación
-
+```
 
 ## Documentación de la API
 * **Swagger disponible en**: http://localhost:3000/api
