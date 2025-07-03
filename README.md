@@ -97,7 +97,7 @@ Redirige al enlace original si es válido y la contraseña (si existe) es correc
   cd bidcom-challenge
 ```
 
-2. Crear archivo .env con estas variables: (salvo que este en el proyecto pusheado)
+2. Crear archivo .env con estas variables: (para este caso el .env ya se encuentra creado)
 ```
   PORT=3000
   MONGO_URI=mongodb://mongo:27017/bidcom-challenge
