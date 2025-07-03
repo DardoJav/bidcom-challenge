@@ -54,10 +54,10 @@ src/
     ```
 
 #### **Redirigir a un enlace**: (GET /l/:id?password=1234)
-* Redirige al enlace original si es válido y la contraseña (si existe) es correcta.
+Redirige al enlace original si es válido y la contraseña (si existe) es correcta.
 
 #### **Invalidar un enlace manualmente**: (PUT /invalidate/****:id)
-Response:
+* Response:
     ```
     {
       "message": "Link invalidado correctamente",
@@ -65,8 +65,8 @@ Response:
     }
     ```
 
-* **Consultar estadísticas de un enlace**: (GET /l/:id/stats)
-  Response:
+#### **Consultar estadísticas de un enlace**: (GET /l/:id/stats)
+* Response:
     ```
     {
       "shortId": "abc123",
