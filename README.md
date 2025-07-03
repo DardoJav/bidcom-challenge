@@ -125,8 +125,8 @@ Redirige al enlace original si es válido y la contraseña (si existe) es correc
 
 ## Acceso a base de datos
 Para probar chequear los datos es posible conectarse usando:
-**URI:** mongodb://localhost:27017/bidcom-challenge
-**Compass:** utilice la URI anterior en MongoDB Compass
+* **URI:** mongodb://localhost:27017/bidcom-challenge
+* **Compass:** utilice la URI anterior en MongoDB Compass
 
 ## Notas
 * Todos los endpoints están documentados y validados.
